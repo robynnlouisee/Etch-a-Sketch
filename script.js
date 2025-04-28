@@ -8,6 +8,11 @@ container.appendChild(square);
 square.addEventListener("mouseover", () => {
     square.style.backgroundColor = "black";
   });
-  
+
 }
 
+const resetBtn = document.getElementById('reset-button');
+
+resetBtn.addEventListener("click", () => {
+  let gridSize = prompt("Please enter the number of squares for the new grid:");
+});
