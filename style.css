@@ -14,12 +14,13 @@ body {
     margin: 0 auto;
     width: 480px;
     height: 480px;
+    
 }
 .square {
-    width: 30px;
-    height: 30px;
     border: 1px solid white;
     box-sizing: border-box;
+    width: 30px;
+    height: 30px;
 }
 button {
     color: pink;
